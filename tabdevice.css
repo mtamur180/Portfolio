@@ -149,11 +149,13 @@
         justify-content: center;
         align-items: baseline;
         position: relative;
-        left: 272px;
+        /* left: 272px; */
         top: -21px;
         background: white;
         color: black;
         z-index: 2;
+        left: 65%;
+        font-size: 13px;
         overflow: hidden;
         transition: all 0.5s ease;
     }
@@ -165,7 +167,7 @@
         justify-content: center;
         align-items: baseline;
         position: relative;
-        left: 278px;
+        /* left: 278px; */
         top: -21px;
         background: white;
         color: black;
@@ -174,6 +176,8 @@
         overflow: hidden;
         opacity: 0;
         z-index: 3;
+        left: 65%;
+        font-size: 16px;
         transition: all 0.5s ease;
     }
 
@@ -316,7 +320,7 @@
 }
 
 .content header ul>li::before {
-    top: 57px;
+    top: 30px;
 }
 .ulanimation{
     height: 485px;
