@@ -317,11 +317,12 @@
     
     }
 
+    .content header ul>li::before {
+    top: 30px;
+    }
 }
 
-.content header ul>li::before {
-    top: 30px;
-}
+
 .ulanimation{
     height: 485px;
 }
