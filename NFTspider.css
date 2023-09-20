@@ -1,0 +1,438 @@
+
+        :root{
+            --blackblue-color:rgb(10, 20, 45);
+            --pink-color:rgb(77, 33, 70);
+            --lightblue-color:rgb(46, 40, 78);
+            --red-color:rgb(222, 32, 43);
+            --bluewhite-color:rgb(115, 124, 147);
+            --btntransition-transition: all 0.5s ease;
+
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        /* body{
+            background-color: var(--lightblue-color);
+            color: white;
+        } */
+        .nft-container{
+            background: linear-gradient( 150deg,var(--blackblue-color),var(--blackblue-color),var(--blackblue-color));
+    width: 95%;
+    height: 570px;
+    position: relative;
+    top: 0px;
+    left: 2.5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 3px var(--blackblue-color);
+    border: 1px solid rgb(75 84 108);
+    color: white;
+    scale: 0.6;
+    opacity: 0;
+    margin-top: 49px;
+    transition: all 1s ease-out;
+        }
+      .nftanimate{
+         scale: 0.95;
+         opacity: 1;
+      }
+     .nft-container  header{
+      width: 90%;
+      position: fixed;
+      left: 66px;
+      top: 0px;
+      z-index: 5;
+      height: 70px;
+      background: var(--blackblue-color);
+      border-radius: 10px;
+        }
+        .nft-container    .logo{
+         display: inline-block;
+         position: relative;
+         top: 26px;
+         left: 50px;
+         font-size: 28px;
+         font-weight: 600;
+         font-family: sans-serif;
+         color: white;
+        }
+      .nft-container   .logo span{
+            color: var(--red-color);
+        }
+     .nft-container    .nav{
+            width: 50%;
+    position: relative;
+    top: -22px;
+    height: 40px;
+    left: 33%;
+    display: flex;
+    list-style: none;
+        }
+     .nft-container    .nav li{
+            font-size: 19px;
+    text-transform: capitalize;
+    font-family: system-ui;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+        }
+      .nft-container   .btn{
+            display: inline-block;
+    width: 235px;
+    height: 49px;
+    position: relative;
+    top: -51px;
+    left: 79%;
+    padding: 8px;
+        }
+        .nft-container     button{
+            display: inline-block;
+    width: 100px;
+    height: 38px;
+    /* position: relative; */
+    border-radius: 8px;
+        }
+      .nft-container   .btn .signup{
+            background: var(--red-color);
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: revert;
+    transition: var(--btntransition-transition);
+        }
+      .nft-container   .btn .signup:hover{
+            border: 1px solid var(--red-color);
+            background: transparent;
+        }
+      .nft-container   .btn .login{
+            background: transparent;
+    border:1px solid var(--red-color);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: revert;
+    /* transition: all 0.5s ease; */
+    transition: var(--btntransition-transition);
+        }
+      .nft-container   .btn .login:hover{
+            background: var(--red-color);
+    /* border: none; */
+        }
+
+        /* content started*/
+      .nft-container    .content{
+            display: inline-block;
+    width: 35%;
+    /* background: blue; */
+    height: 446px;
+    position: relative;
+    top: 101px;
+    left: 111px;
+         }
+      .nft-container    h1.head{
+         /* text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 45px;
+    width: 77%;
+    line-height: normal;
+    color: white;
+    font-weight: bold; */
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 42px;
+    width: 77%;
+         }
+      .nft-container    h1.head span{
+            color: var(--red-color);
+         }
+     .nft-container     .head-info{
+            width: 271px;
+    position: relative;
+    top: 25px;
+    text-transform: capitalize;
+    color: var(--bluewhite-color);
+         }
+      .nft-container    .btn-content{
+            position: relative;
+    top: 60px;
+         }
+      .nft-container    .explore{
+            background: var(--red-color);
+    border: none;
+    width: 115px;
+    height: 35px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: revert;
+    margin-right: 17px;
+    transition: var(--btntransition-transition);
+         }
+         .explore:hover{
+            border: 1px solid white;
+            background-color: transparent;
+         }
+     .nft-container     .create{
+            background: transparent;
+    border: 1px solid white;
+    width: 115px;
+    height: 35px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: revert;
+    /* margin: 0 10px; */
+    transition: var(--btntransition-transition);
+         }
+         .create:hover{
+            background: var(--red-color);
+    border: none;
+         }
+         .likes{
+            position: relative;
+    top: 121px;
+    width: 90%;
+    height: 85px;
+         }
+         .likes>span{
+            font-size: 35px;
+    display: inline-block;
+    width: 130px;
+    height: 60px;
+    font-family: sans-serif;
+    line-height: 35px;
+    border-radius: 1px solid white;
+    border-right: 1px solid var(--bluewhite-color);
+         }
+         .likes span>span{
+            color: var(--bluewhite-color);
+    font-size: 20px;
+         }
+         .likes .box2{
+            padding: 0 15px;
+         }
+         .likes .box3{
+            border: none;
+    padding: 0 15px;
+         }
+         /* star content started  */
+         .star{
+            position: relative;
+    top: 122px;
+    font-size: 19px;
+    font-family: sans-serif;
+         }
+         .star img{
+            width: 25px;
+    position: relative;
+    top: 5px;
+         }
+      .nft-container    .img-content{
+            width: 50%;
+    position: relative;
+    top: -315px;
+    left: 44%;
+    height: 400px;
+         }
+         .img-content .box1,.img-content .box2,.img-content .box3{
+            width: 53px;
+    height: 58px;
+    background-color: var(--pink-color);
+    border-radius: 50%;
+    box-shadow: -20px -20px 63px 83px var(--pink-color);
+    display: inline-block;
+    opacity: 0.6;
+         }
+         .img-content .box1{
+            position: relative;
+    top: 77px;
+    left: 94px;
+    width: 218px;
+    height: 200;
+         }
+         .img-content .box2{
+            position: relative;
+    top: 150px;
+    left: 122px;
+    width: 200px;
+    height: 200px;
+    /* opacity: 0.6; */
+         }
+         .img-content .spider{
+         position: relative;
+    width: 450px;
+    /* height: 300px; */
+    /* background-image: url(./Spider-Man-PNG.jpg); */
+    /* background-color: blue; */
+    top: -234px;
+    left: 6px;
+         }
+         .speed-meter{
+            display: block;
+    margin: auto;
+    position: relative;
+    width: 55px;
+    top: -342px;
+         }
+
+         .chats{
+            width: 228px;
+    height: 45px;
+    /* background: yellow; */
+    position: relative;
+    display: inline-block;
+    top: -720px;
+    left: 58%;
+    background: var(--blackblue-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(34 46 78);
+    border: 1px solid #364766;
+         }
+         .chats img{
+            width: 30px;
+         }
+         .chats .pic1{
+            position: relative;
+    top: 7px;
+    left: 15px;
+         }
+         .chats .pic2{
+            position: relative;
+    top: 7px;
+    left: 1px;
+    /* width: 30px; */
+         }
+         .chats .pic3{
+            position: relative;
+    top: 8px;
+    left: -13px;
+         }
+         .chats .pic4{
+            width: 12px;
+    position: relative;
+    top: 9px;
+    left: -28px;
+         }
+         .chats span{
+            font-size: 17px;
+    position: relative;
+    top: -20px;
+    left: 98px;
+    color: var(--bluewhite-color);
+    display: inline-block;
+         }
+
+         div.gem{
+            width: 300px;
+    height: 170px;
+    display: inline-block;
+    background: var(--blackblue-color);
+    border-radius: 15px;
+    border: 1px solid var(--lightblue-color);
+    position: relative;
+    top: -449px;
+    left: 73px;
+         }
+         .gem h3{
+            font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+    left: 22px;
+    /* color: var(--bluewhite-color); */
+         }
+         .coin{
+            display: inline-block;
+    width: 240px;
+    height: 62px;
+    position: relative;
+    top: 32px;
+    left: 22px;
+    background: rgb(30 40 66);
+    border-radius: 10px;
+         }
+         .coin .current{
+            color: var(--bluewhite-color);
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+    font-family: sans-serif;
+         }
+         .coin .item{
+                /* color: var(--bluewhite-color); */
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    left: 54px;
+    font-family: sans-serif;
+         }
+         .item img{
+            width: 18px;
+    position: relative;
+    top: 1px;
+         }
+         .value{
+            font-size: 22px;
+    position: relative;
+    top: 33px;
+    left: -171px;
+    font-family: sans-serif;
+         }
+         .value img{
+            width: 22px;
+    position: relative;
+    top: 3px;
+    left: 6px;
+         }
+
+         .dollar{
+            font-family: system-ui;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    left: 130px;
+         }
+         .usd{
+            color: var(--bluewhite-color);
+    font-weight: 500;
+         }
+
+         .coin button{
+            font-size: 17px;
+    top: 25px;
+    display: block;
+    /* margin: auto; */
+    width: 100%;
+    height: 35px;
+    left: 1px;
+    background: var(--red-color);
+    border: none;
+    color: white;
+    font-family: system-ui;
+    font-weight: 500;
+    position: relative;
+    transition: var(--btntransition-transition);
+         }
+         .coin button:hover{
+            border: 1px solid var(--red-color);
+            background-color: transparent;
+         }
+
+         .power{
+            position: relative;
+    top: 112px;
+    display: inline-block;
+    left: 50%;
+    font-size: 17px;
+    color: var(--bluewhite-color);
+    font-family: sans-serif;
+    font-weight: 600;
+         }
+         .power span{
+            color: white;
+         }

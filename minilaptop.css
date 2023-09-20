@@ -1,0 +1,58 @@
+@media (max-width:1130px){
+
+
+
+.imgs .img-slide{
+    width: 272%;
+}
+.content header ul {
+    position: relative;
+    display: flex;
+    float: right;
+    left: 0%;
+    scale: 0.95;
+}
+.dark-mode {
+   
+    left: -40px;
+}
+.about-name::after {
+    left: 44.3%;
+}
+.about-content .img {
+    left: 8.9%;
+    top: 140px;
+}
+.about-content-data {
+    right: 20px;
+}
+.nft-container .nav {
+    left: 26%;
+}
+.nft-container {
+    background: linear-gradient( 150deg,var(--blackblue-color),var(--blackblue-color),var(--blackblue-color));
+    width: 99%;
+    height: 577px;
+    position: relative;
+    top: 0px;
+}
+.nft-container .content {
+    display: inline-block;
+    width: 35%;
+    /* background: blue; */
+    height: 446px;
+    position: relative;
+    top: 85px;
+    left: 97px;
+    scale: 0.9;
+}
+.likes {
+    width: 120%;
+    height: 85px;
+}
+.teamanimation {
+    opacity: 1;
+    scale: 0.9;
+    }
+
+}

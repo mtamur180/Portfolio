@@ -1,0 +1,159 @@
+
+.team-container{
+    margin-top: 100px;
+    opacity: 0;
+    scale: 0.6;
+    /* transform: scale(0.6); */
+    transition: all 1s ease-out;
+}
+/* #team{
+
+} */
+.teamanimation{
+    opacity: 1;
+    scale: 1;
+    /* transform: scale(1); */
+}
+/* .team-container{ */
+
+
+/* .team{
+    width: 100%;
+    height: 100%;
+} */
+.team .team-head{
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2;
+    position: relative;
+    top: 100;
+}
+.team .team-head::before{
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 3px;
+    background-color: red;
+    top: 60px;
+    left: 46.5%;
+}
+.team .team-head::after{
+    content: "";
+    position: absolute;
+    width: 344px;
+    height: 1px;
+    background-color: rgb(221, 221, 221);
+    top: 61px;
+    left: 37.3%;
+    z-index: -1;
+}
+.team ul{
+    display: flex;
+    justify-content: center;
+}
+.team ul li{
+    width: 253px;
+    height: 460px;
+    margin: 20px;
+    list-style: none;
+    position: relative;
+    top: 100px;
+    /* border: 2px solid beige; */
+    border: 2px solid rgb(221, 221, 221);
+}
+.team ul li div{
+    width: 250px;
+    height: 390px;
+    overflow: hidden;
+}
+ 
+.team img{
+    width: 250px;
+}
+.class2 img{
+    left: -259px; top: -48px;
+}
+.team ul li .tamurdp{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 10;
+    font-size: 24px;
+    text-transform: uppercase;
+    /* font-weight: 300; */
+    font-family: revert;
+}
+.team ul li p{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 100;
+    position: relative;
+    top: 5px;
+}
+ /* hover contact  */
+ .hover-contact{
+    width: 252px;
+    height: 393px;
+    position: relative;
+    top: -441px;
+    /* background: green; */
+    /* opacity: 0.5; */
+    overflow: hidden;
+    display: inline-block;
+ }
+ .hover-data{
+    background: black;
+    color: blue;
+    width: 250px;
+    display: inline-block;
+    height: 540px;
+    opacity: 0;
+    position: relative;
+    top: -75px;
+    /* margin: auto; */
+    padding: 185px 61px;
+    transition: all 1.2s ease-out 0s;
+ }
+ .hover-data:hover{
+        opacity: 0.6;
+        top: 0;
+ }
+ .team ul li .fa{
+    color: white;
+    font-size: 18px;
+    background: none;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    opacity: 1;
+    transition: all .5s ease 0s;
+}
+.team ul li .fa:hover{
+    /* background-color: rgb(60, 211, 235); */
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    opacity: 1;
+    
+}
+.team ul li .fa-facebook{
+    padding: 8px 11px;
+    
+ }
+ .team ul li .fa-twitter{
+    padding: 8px 9px;
+}
+.team ul li .fa-instagram{
+     padding: 8px 9px;
+    
+    }
+
+/* }     */

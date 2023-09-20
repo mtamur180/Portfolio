@@ -1,0 +1,318 @@
+@media (min-width:440px) and (max-width:500px){
+    .services .services-name {
+        top: -406px;
+        left: 29%;
+        /* z-index: 2; */
+    }
+}
+@media (min-width:431px) and (max-width:440px){
+    .services .services-name {
+        top: -398px;
+        /* z-index: 2; */
+        left: 32%;
+    }
+}
+@media (max-width:431px) {
+    .services .services-name {
+        top: 273px;
+    /* z-index: 2; */
+    left: 32%;
+    }
+}
+
+
+@media (max-width: 500px){
+
+    
+    .container{
+        width: 100%;
+        overflow: hidden;
+        /* height: auto; */
+    }
+
+    header.relative-nav, .fixed-nav {
+        /* display: flex; */
+        height: 57px;
+    }
+    .relative-nav{
+        display: block;
+        height: 60px;
+        position: absolute;
+        width: 100%;
+    }
+    
+    
+
+    .relative-nav .ul-list-nav {
+        /* height: 55px; */
+        left: 0;
+        /* height: 57px; */
+        top: -17px;
+        width: 100%;
+    }
+   
+    #home{
+        font-size: 25px;
+        padding: 0;
+        margin: 13px 0;
+    }
+    #dark-mode{
+        position: absolute;
+        top: 0;
+        left: 63%;
+        padding: 0;
+        margin: 14px 0;
+        scale: 0.9;
+    }
+
+    
+    .fixed-nav .dark-mode {
+        padding: 0;
+        margin: 15px 0;
+        scale: 0.8;
+        /* left: 62%; */
+        z-index: 1;
+        top: 4px;
+        left: 62%;
+        position: absolute;
+    }
+    
+    .relative-nav .logo{
+        position: absolute;
+        z-index: 1;
+        left: 27px;
+        padding-top: 12px;
+    }
+    .relative-nav .menu{
+        scale: 0.8;
+        left: 81%;
+        top: 0px;
+        padding: 0;
+        margin: 28px 0;
+    }
+    .fixed-nav-ul{
+        width: 100%;
+        /* left: -15px; */
+        top: -1px;
+        /* height: 72px; */
+        left: 0;
+    }
+    .fixed-nav{
+        top: 0px;
+        width: 100%;
+
+    }
+    #fixed-nav{
+        left: 0;
+    }
+    .content header .logo {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+        padding: 0;
+        scale: 0.8;
+        margin: 15px 0;
+        position: absolute;
+        /* top: 30px; */
+        /* left: 37px; */
+        z-index: 1;
+    }
+    .fixed-nav .dark-mode {
+        padding: 0;
+        margin: 15px 0;
+        scale: 0.8;
+        left: 62%;
+    }
+    .fixed-menubar{
+        scale: 0.8;
+        left: 81%;
+        top: 13px;
+        padding: 0;
+    }
+    .imgs .img-slide{
+        display: none;
+    }
+
+    /* content part started  */
+    .content-info .name {
+        top: -95px;
+        /* transform: scale(1.5); */
+        font-size: 27px;
+    }
+    
+    .content-info .skill {
+        font-size: 15px;
+        color: white;
+        padding: 0 6px;
+        line-height: 2;
+        position: relative;
+        animation: skillanimation 0.6s ease-out 0.1s;
+        top: -90px;
+    }
+    .content-info .social-icon {
+        width: 232px;
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        position: relative;
+        top: -85px;
+        left: -34px;
+        scale: 0.7;
+    }
+
+    /* about page started  */
+    .about-name::before {
+        left: 44.2%;
+    }
+    .about-name::after {
+        left: 33%;
+    }
+    .about-content .img{
+        margin: auto;
+        width: 127%;
+        left: -44px;
+    }
+    .about-content img {
+        width: 63%;
+    height: 472px;
+    }
+
+    .about-content-data .ul li {
+        width: 100%;
+    }
+    .about-content-data {
+        width: 80%;
+        float: right;
+        top: 138px;
+        position: relative;
+        right: 29px;
+    }
+    .about-content-data .ul li .info {
+        font-size: 17px;
+    }
+    .about-content-data .ul li .info-detail {
+        padding-left: 18px;
+    }
+
+    /* services form started  */
+    .services{
+        top: 469px;
+    }
+    /* .services .services-name{
+        top: 414px;
+        left: 29%;
+    
+    } */
+    .services .product{
+        top: -424px;
+    }
+    .services .product .list{
+        width: 100%;
+        scale: 0.8;
+    }
+
+    /* skill from started  */
+    .skill-container{
+        padding-top: 0px;
+    }
+    .skill-name{
+        position: relative;
+        left: 18px;
+    }
+
+    .skill-line .progress{
+        width: 100%;
+    }
+
+    /* team form started  */
+    .team .team-head::before {
+        left: 39.5%;
+    }
+    .team .team-head::after {
+        left: 2.3%;
+    }
+    
+    .team ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .team-container{
+        margin: 0;
+        position: relative;
+        top: -346px;
+        padding-top: 100px;
+    }
+    
+    /* contact page started  */
+    #contact {
+        top: -661px;
+
+
+
+        .contact-name::before {
+            left: 39.2%;
+        }
+        .contact-name::after {
+            left: 25.3%;
+            z-index: -1;
+        }
+
+        .login-form {
+            width: 90%;
+            top: 315px;
+        }
+        #name-contact, #email-contact {
+            width: 43%;
+        }
+        #email-contact{
+            margin-left: 7%;
+            margin-right: 0;
+        }
+        .social-icon{
+            top: -221px;
+            right: 23%;
+            /* left: -38px; */
+            width: 70%;
+        }
+
+
+    
+    
+    }
+    .end-contact{
+        position: relative;
+        position: relative;
+            /* top: -302px; */
+        /* height: auto; */
+
+        .end-name{
+        font-size: 29px;
+        line-height: 0;
+        position: relative;
+        top: -34px;
+        }
+        .end-name-info{
+            font-size: 14px;
+        line-height: 1;
+        }
+        .end-social-icon{
+            text-align: center;
+            line-height: 7;
+            scale: 0.9;
+        }
+        .copyright{
+            line-height: 2;
+        font-size: 14px;
+        }
+
+
+    }
+   
+
+  
+
+}
+
+    
+    

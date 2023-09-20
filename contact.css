@@ -1,0 +1,214 @@
+.contact-page{
+    position: relative;
+    top: 180px;
+    padding-top: 110px;
+}
+.contact-page{
+
+    .contact-name{
+        display: block;
+        text-align: center;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 2;
+    }
+    .contact-name::before{
+        content: "";
+        position: absolute;
+        width: 68px;
+        height: 3px;
+        background-color: red;
+        top: 168px;
+        left: 47.2%;
+    }
+    .contact-name::after{
+        content: "";
+        position: absolute;
+        width: 176px;
+        height: 1px;
+        background-color: rgb(221, 221, 221);
+        top: 169px;
+        left: 43.3%;
+        z-index: -1;
+    }
+    
+.login-form{
+    width: 55%;
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 10%;
+    flex-wrap: wrap;
+}
+#name-contact, #email-contact, #subject-contact, #textarea{
+    border: 1px solid rgb(221, 221, 221);
+    padding-left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#name-contact:focus, #email-contact:focus, #subject-contact:focus, #textarea:focus{
+    outline: 1px solid #ffadad;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: rgb(114, 131, 148);
+    /* font-size: 20px; */
+}
+
+#name-contact, #email-contact{
+    width: 48%;
+    height: 40px;
+    
+    outline: none;
+    border-radius: 6px;
+    margin: 7px;
+}
+#subject-contact{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    margin: 8px 7px;
+}
+#textarea{
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+    border-radius: 6px;
+    margin: 7px;
+    padding-top: 7px;
+}
+.send-msg{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 28px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    background: red;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+.send-msg:hover{
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+.send-msg:active{
+    scale: 0.9;
+
+}
+
+/* social icon  */
+.social-icon{
+    width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    position: relative;
+    top: -232px;
+    right: 133px;
+}
+.location , .email, .call{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+.social-icon>div:hover .gog-icon{
+    color: white;
+    background-color: red;
+    opacity: 1;
+}
+
+.gog-icon{
+    font-size: 25px;
+    color: red;
+    background: #ffd7d7;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    padding: 11px 11px;
+    opacity: 0.9;
+    transition: all 0.3s ease-out;
+}
+.icon-data{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 01.4;
+}
+.head-data{
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+
+}
+.end-contact{
+    margin-top: 75px;
+    /* color: rgb(114, 131, 148); */
+}
+    .end-contact::before{
+        content: "";
+        position: relative;
+        width: 100%;
+        height: 331px;
+        /* background-color: #ffe7e7; */
+        background-color: red;
+        opacity: 0.06;
+        z-index: -1;
+        top: 295px;
+        display: block;
+    }
+.end-contact{
+
+    .end-name{
+        display: block;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    .end-name-info{
+            /* width: 70%; */
+    /* margin: auto; */
+    text-align: center;
+    line-height: 4;
+    font-size: 16px;
+    font-family: system-ui;
+    font-style: oblique;
+    }
+    .end-social-icon{
+        text-align: center;
+        line-height: 7;
+    }
+    .fa{
+        color: white;
+        background: red;
+        width: 37px;
+        height: 37px;
+        padding: 11px 0px;
+        opacity: 1;
+        border: none;
+       
+    }
+    .fa:hover{
+        opacity: 0.7;
+    }
+
+    .copyright{
+        line-height: 4;
+        text-align: center;
+        font-family: inherit;
+    }
+
+}

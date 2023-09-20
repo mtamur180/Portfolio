@@ -1,0 +1,128 @@
+/* @import url("https://www.w3schools.com/w3css/4/w3.css"); */
+.skill-container{
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    opacity: 0;
+    scale: 0.6;
+    transition: all 1s ease-out;
+}
+.skillanimation{
+    opacity: 1;
+    scale: 1;
+}
+.skill-container{
+
+
+ .skill-name{
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 2;
+   
+}
+
+
+.skill-name::before{
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    top: 15px;
+    left: 69px;
+}
+.skill-name::after{
+    content: "";
+    position: relative;
+    width: 105px;
+    height: 1px;
+    display: inline-block;
+    background-color: rgb(221, 221, 221);
+    top: 14px;
+    left: -100px;
+    z-index: -1;
+}
+.skill-para{
+        /* line-height: 4; */
+        width: 78%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        font-family: inherit;
+        font-style: italic;
+        font-size: 17px;
+}
+.skill-line{
+    width: 79%;
+    margin: auto;
+    position: relative;
+    top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.progress .data{
+    line-height: 2;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 12px;
+}
+.value-progress{
+    position: relative;
+    float: right;
+    right: 35px;
+}
+.progress-bg{
+    width: 96%;
+    height: 25px;
+    background: #dee8eb;
+    display: inline-block;
+    border-radius: 20px;
+}
+.progress-color{
+    width: 05%;
+    height: 25px;
+    display: inline-block;
+    background: red;
+    border-radius: 20px;
+    /* animation: progress 1s ease-out; */
+    
+}
+        .progress1 .progress-color{
+            width: 95%;
+            /* transition: all 1s ease-out; */
+        }
+
+        /* .progressbar{
+            width: 95%;
+        } */
+
+     
+        .progress2 .progress-color{
+            width: 90%;
+        }
+        /* .progress3 .progress-color{
+            width: 90%;
+        } */
+        /* .progress4 .progress-color{
+            width: 95%;
+        } */
+        .progress5 .progress-color{
+            width: 80%;
+        }
+        /* .progress6 .progress-color{
+            width: 80%;
+        } */
+ 
+
+
+}
